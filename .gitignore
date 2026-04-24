@@ -1,0 +1,71 @@
+# 嘟嘟超级记忆系统 - 忽略文件
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+temp/
+tmp/
+*~
+
+# Python相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+.coverage
+.cache
+.pytest_cache/
+.hypothesis/
+.ipynb_checkpoints
+
+# 环境和依赖
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.nox
+.hypothesis
+
+# 编辑器和IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# 存储目录（根据实际情况选择是否忽略）
+# 热存储和温存储经常变化，可能想要忽略
+hot/
+warm/
+# 冷存储可能想要保留（作为长期备份）
+# cold/
+
+# 备份目录
+backups/
+
+# 插件开发
+plugins/*.pyc
+plugins/__pycache__
+
+# 编译和分发
+build/
+dist/
+*.egg-info/
